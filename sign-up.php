@@ -84,12 +84,12 @@
 						</div>
 						<div class="form-group">
 							<label for="password" class="sr-only">Password</label>
-							<input type="password" class="form-control" name="pass" id="password" placeholder="Password" autocomplete="off">
+							<input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off">
 						</div>
-						<div class="form-group">
+						<!-- <div class="form-group">
 							<label for="re-password" class="sr-only">Re-type Password</label>
 							<input type="password" class="form-control" id="confirm_password" placeholder="Re-type Password" autocomplete="off">
-						</div>
+						</div> -->
 						<div class="form-group">
 							<label for="remember"><input type="checkbox" id="remember"> Remember Me</label>
 						</div>
