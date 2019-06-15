@@ -93,7 +93,7 @@
 							<label for="remember"><input type="checkbox" id="remember"> Remember Me</label>
 						</div>
 						<div class="form-group">
-							<p>Not registered? <a href="sign-up.html">Sign Up</a> | <a href="forgot.html">Forgot Password?</a></p>
+							<p>Not registered? <a href="sign-up.php">Sign Up</a> | <a href="login.php">Forgot Password?</a></p>
 						</div>
 						<div class="form-group">
 							<input type="submit" value="Sign In" name="login" class="btn btn-primary">
@@ -104,7 +104,7 @@
 				</div>
 			</div>
 			<div class="row" style="padding-top: 60px; clear: both;">
-				<div class="col-md-12 text-center"><p><small>&copy; All Rights Reserved. Designed by <a href="https://freehtml5.co">FreeHTML5.co</a></small></p></div>
+				<div class="col-md-12 text-center"><p><small>&copy; All Rights Reserved. Designed by <a href="#">NelCan</a></small></p></div>
 			</div>
 		</div>
 	

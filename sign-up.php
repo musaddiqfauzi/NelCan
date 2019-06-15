@@ -7,7 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Minimal and Clean Sign up / Login and Forgot Form by FreeHTML5.co</title>
+	<title>Mendaftar Akun | Penjual</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FreeHTML5.co" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -94,7 +94,7 @@
 							<label for="remember"><input type="checkbox" id="remember"> Remember Me</label>
 						</div>
 						<div class="form-group">
-							<p>Already registered? <a href="index.html">Sign In</a></p>
+							<p>Already registered? <a href="login.php">Sign In</a></p>
 						</div>
 						<div class="form-group">
 							<input type="submit" value="Sign Up" name="daftar" class="btn btn-primary">
@@ -105,7 +105,7 @@
 				</div>
 			</div>
 			<div class="row" style="padding-top: 60px; clear: both;">
-				<div class="col-md-12 text-center"><p><small>&copy; All Rights Reserved. Designed by <a href="https://freehtml5.co">FreeHTML5.co</a></small></p></div>
+				<div class="col-md-12 text-center"><p><small>&copy; All Rights Reserved. Designed by <a href="https://freehtml5.co">NelCan</a></small></p></div>
 			</div>
 		</div>
 	
