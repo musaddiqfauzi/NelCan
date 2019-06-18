@@ -9,8 +9,8 @@ if(isset($_POST['daftar'])){
     $nama = $_POST['nama'];
     $email = $_POST['email'];
     $password = $_POST['password'];
-    
-    
+
+
     // buat query
     $sql = "INSERT INTO daftar_pengguna (nama, email, password) VALUE ('$nama', '$email', '$password')";
     $query = mysqli_query($db, $sql);
