@@ -1,0 +1,51 @@
+$(document).ready(function () {
+    function getData() {
+        return {
+            "cuaca": $("#focus-screen div.cont_pet_hm2 div:nth-child(2)").html().replace("\n"," ").trim(),
+            "namapelabuhan": $("#focus-screen .head_cuca").html().replace("&nbsp;"," ").replace("\n"," ").trim(),
+            "tanggalfrom": $("body div:nth-child(5) div.bag_kiri_detail div.ket_waktu").html().replace("\n"," ").split("<br>")[0].trim(),
+            "tanggalto": $("body div:nth-child(5) div.bag_kiri_detail div.ket_waktu").html().replace("\n"," ").split("<br>")[1].trim(),
+            "gelombang": $("#focus-screen div.cont_pet_hm2 div:nth-child(8)").html().replace("\n"," ").trim(),
+            "suhumax": $("#focus-screen div.cont_pet_hm2 div:nth-child(14)").html().split('\n')[8].replace("<br>", "").replace("\n"," ").replace("°","").trim(),
+            "suhumin": $("#focus-screen div.cont_pet_hm2 div:nth-child(14)").html().split('\n')[6].replace("<br>", "").replace("\n"," ").replace("°","").trim(),
+            "pasutmin": $("#focus-screen div.cont_pet_hm2 div:nth-child(23)").html().split("<br>")[0].replace("\n"," ").trim(),
+            "pasutmax": $("#focus-screen div.cont_pet_hm2 div:nth-child(23)").html().split("<br>")[1].replace("\n"," ").trim(),
+            "lembabmax": $("#focus-screen div.cont_pet_hm2 div:nth-child(17)").html().split("\n")[6].replace("<br>", "").replace("\n"," ").trim(),
+            "lembabmin": $("#focus-screen div.cont_pet_hm2 div:nth-child(17)").html().split("\n")[8].replace("<br>", "").replace("\n"," ").trim(),
+            "kecerahan": $("#focus-screen div.cont_pet_hm2 div:nth-child(11)").html().replace("\n"," ").trim(),
+            "angin": $("#focus-screen div.cont_pet_hm2 div:nth-child(5)").html().replace("\n"," ").trim()
+        }
+    }
+
+    function formating(msg) {
+        var msgmod = msg.split(/\s/g);
+        var msgnew = [];
+        msgmod.forEach(function (el) {
+            if(el !== ""){
+                msgnew.push(el);
+            }
+        });
+        return msgnew.join(" ");
+    }
+
+    function applyData2SVG() {
+        $.get('/assets/js/svg_report_pelabuhan.svg', function (svg) {
+            var svgmod = svg;
+            var data = getData();
+            console.log(data);
+            for (var key in data) {
+                svgmod = svgmod.replace("$"+key,formating(data[key]))
+            }
+            var encodedData = window.btoa(svgmod);
+            var urldata = "data:image/svg+xml;base64,"+encodedData;
+            $('<a href="'+urldata+'" download="pelabuhan.svg"><div style="background-color: #0b4976;width: 25px;height: 13px;margin-top:  17px;color:  white;font-size: 9px;position: absolute;"> SVG </div><div align="center" class="kotak_pdf"></div></a>').appendTo('.kotakan');
+            console.log(urldata);
+            $('.kotak_pdf').css('margin-top','7px');
+        }, 'text');
+
+    }
+
+    applyData2SVG();
+});
+
+
