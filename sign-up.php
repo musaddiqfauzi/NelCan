@@ -72,9 +72,6 @@
             <form action="prosesdaftar.php" method="POST" class="fh5co-form animate-box" data-animate-effect="fadeIn">
                 <h2>Sign Up</h2>
                 <div class="form-group">
-                    <div class="alert alert-success" role="alert">Your info has been saved.</div>
-                </div>
-                <div class="form-group">
                     <label for="name" class="sr-only">Name</label>
                     <input type="text" class="form-control" name="nama" placeholder="Name" autocomplete="off">
                 </div>
