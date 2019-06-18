@@ -3,7 +3,7 @@
 include("config.php");
 
 // cek apakah tombol daftar sudah diklik atau blum?
-// if(isset($_POST['simpan'])){
+ if(isset($_POST['simpan'])){
 
 // ambil data dari formulir
 $namaikan = $_POST['namaikan'];
@@ -12,7 +12,7 @@ $harga  = $_POST['harga'];
 $lokasipenjualan = $_POST['lokasipenjualan'];
 $foto = $_FILES['foto']['name'];
 
-$sql = "INSERT INTO data_ikan values ('', '$namaikan', '$namapenjual', '$harga', '$lokasipenjualan', '$foto')";
+$sql = "INSERT INTO data_ikan(namaikan, namapenjual, harga, lokasipenjualan, foto) values ('', '$namaikan', '$namapenjual', '$harga', '$lokasipenjualan', '$foto')";
 $query = mysqli_query($db, $sql);
 
 move_uploaded_file($_FILES['foto']['tmp_name'], "foto/".$_FILES['foto']['name']);
@@ -27,8 +27,8 @@ if( $query ) {
 }
 
 
-// } else {
-//     die("Akses dilarang...");
-// }
+ } else {
+     die("Akses dilarang...");
+ }
 
 ?>
