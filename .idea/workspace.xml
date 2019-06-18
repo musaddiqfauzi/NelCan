@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eade2d18-94fd-4cdc-82d4-f06decb1671f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Laman-form-ikan.html" beforeDir="false" afterPath="$PROJECT_DIR$/Laman-form-ikan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Laman-tabel-ikan.html" beforeDir="false" afterPath="$PROJECT_DIR$/Laman-tabel-ikan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpan-data-ikan.php" beforeDir="false" afterPath="$PROJECT_DIR$/simpan-data-ikan.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +52,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Laman-form-ikan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            <state relative-caret-position="952">
+              <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simpan-data-ikan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sign-up.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="970">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prosesdaftar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -64,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Laman-tabel-ikan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+            <state relative-caret-position="-359">
+              <caret line="82" column="93" selection-start-line="82" selection-start-column="93" selection-end-line="82" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -73,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="303" column="22" lean-forward="true" selection-start-line="303" selection-start-column="22" selection-end-line="303" selection-end-column="22" />
+            <state relative-caret-position="372">
+              <caret line="2147" lean-forward="true" selection-start-line="2147" selection-end-line="2147" />
             </state>
           </provider>
         </entry>
@@ -141,7 +168,6 @@
         <option value="$PROJECT_DIR$/nelcan.sql" />
         <option value="$PROJECT_DIR$/prosesdaftar.php" />
         <option value="$PROJECT_DIR$/proseslogin.php" />
-        <option value="$PROJECT_DIR$/simpan-data-ikan.php" />
         <option value="$PROJECT_DIR$/sign-up.php" />
         <option value="$PROJECT_DIR$/Laman-informasi-melaut.html" />
         <option value="$PROJECT_DIR$/Laman-about.html" />
@@ -156,6 +182,7 @@
         <option value="$PROJECT_DIR$/Laman-perkiraan-gelombang.html" />
         <option value="$PROJECT_DIR$/Laman-form-ikan.html" />
         <option value="$PROJECT_DIR$/Laman-tabel-ikan.html" />
+        <option value="$PROJECT_DIR$/simpan-data-ikan.php" />
       </list>
     </option>
   </component>
@@ -179,11 +206,6 @@
             <path>
               <item name="NelCan" type="b2602c69:ProjectViewProjectNode" />
               <item name="NelCan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NelCan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NelCan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,12 +258,12 @@
       <workItem from="1560660496441" duration="1872000" />
       <workItem from="1560874300696" duration="92000" />
       <workItem from="1560874398822" duration="2735000" />
-      <workItem from="1560889626390" duration="5388000" />
+      <workItem from="1560889626390" duration="8529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68201000" />
+    <option name="totallyTimeSpent" value="71342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -308,31 +330,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prosesdaftar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proseslogin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
           <caret line="38" column="2" lean-forward="true" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpan-data-ikan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sign-up.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
         </state>
       </provider>
     </entry>
@@ -405,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="303" column="22" lean-forward="true" selection-start-line="303" selection-start-column="22" selection-end-line="303" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laman-Informasi-Zona-Maritim.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -451,17 +445,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="2147" lean-forward="true" selection-start-line="2147" selection-end-line="2147" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Laman-tabel-ikan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="-359">
+          <caret line="82" column="93" selection-start-line="82" selection-start-column="93" selection-end-line="82" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prosesdaftar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign-up.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="970">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Laman-form-ikan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="952">
+          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpan-data-ikan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
